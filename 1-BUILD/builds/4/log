@@ -1,0 +1,16 @@
+Started by user [8mha:////4InN0TdsPXJ9ysdtQBQIloeXetrP8IyWbSOAlMvuffniAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9lMT80hQAlab3OsAAAAA=[0mDaoud ELHOR
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/1-BUILD
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/1-BUILD/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/delhor/jenkins_tp1 # timeout=10
+Fetching upstream changes from https://github.com/delhor/jenkins_tp1
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/delhor/jenkins_tp1 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
